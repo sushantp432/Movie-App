@@ -1,0 +1,45 @@
+#navbar{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 20px;
+    /* padding: 10px; */
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+img{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    text-align: center;
+}
+#movies>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    color: red;
+}
+#sort-buttons button{
+    width: 200px;
+    background-color: rgb(43, 255, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+}

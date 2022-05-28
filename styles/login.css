@@ -1,0 +1,36 @@
+#navbar{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    gap: 20px;
+    /* padding: 10px; */
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#login{
+    height: 200px;
+    width: 20%;
+   margin: auto;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   margin-top: 50px;
+   text-align: center;
+   border-radius: 10px;
+}
+#login input{
+    margin-top: 20px;
+}
+#submit{
+    background-color: teal;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+}
